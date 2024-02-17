@@ -16,6 +16,8 @@
 4. Modify the Program.cs file to use the `WebHostBuilder`
 
     ```csharp
+    using Microsoft.AspNetCore.Builder;
+    
     var builder = WebApplication.CreateBuilder(args);
 
     var app = builder.Build();
