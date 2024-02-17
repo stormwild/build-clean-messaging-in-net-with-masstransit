@@ -26,7 +26,7 @@
     <Project Sdk="Microsoft.NET.Sdk.Web">
     ```
 
-5. Modify the Program.cs file to use the `WebHostBuilder`
+3. Modify the Program.cs file to use the `WebHostBuilder`
 
     ```csharp
     using Microsoft.AspNetCore.Builder;
@@ -47,5 +47,3 @@
     info: Microsoft.Hosting.Lifetime[0]
           Application started. Press Ctrl+C to shut down.
     ```
-
-4. Ad
